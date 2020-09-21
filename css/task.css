@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.main1 > div, .main3 > div, .main2 > div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+.red{
+    background-color: red;
+}
+.yellowcircle{
+    border-radius: 100px;
+    background-color: yellow;
+    transition: transform;
+    transition-duration: 2s;
+}
+.yellowcircle:hover{
+    transform: rotateY(180deg)
+}
+.green{
+    background-color: green;
+}
+.redcircle2{
+    background-color: red;
+    border-radius: 100px;
+    transition: transform;
+    transition-duration: 2s;
+}
+.redcircle2:hover{
+    transform: rotateY(180deg)
+}
+.yellow2{
+    border: none;
+}
+.green2{
+    background-color: green;
+}
+.greencircle3{
+    background-color: green;
+    border-radius: 100px;
+    transition: transform;
+    transition-duration: 2s;
+}
+.greencircle3:hover{
+    transform: rotateY(180deg)
+}
+.red3{
+    background-color: red;
+}
+.yellow3{
+    background-color: yellow;
+}
